@@ -1,0 +1,40 @@
+{ "name": "fillin-pdf-form-cli-pmb",
+  "version": "0.0.1",
+  "description": "A simple CLI to fill in data into PDF forms.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/fillin-pdf-form-cli-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/fillin-pdf-form-cli-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/fillin-pdf-form-cli-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "src/cliMain.mjs",
+  "bin": "bin/cli.js",
+  "scripts": { "test": "nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+
+  "dependencies": {
+    "esmod-pmb": "^0.1.11",
+    "getown": "^1.0.0",
+    "map-assoc-core": "^0.1.3",
+    "p-fatal": "^0.1.3",
+    "pdf-forms": "^0.1.1",
+    "read-data-file": "^2.0.2",
+    "safe-sortedjson": "^1.0.1",
+    "usnam-pmb": "^0.2.4"
+  },
+  "devDependencies": {
+    "nodemjs": "^0.1.8"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
