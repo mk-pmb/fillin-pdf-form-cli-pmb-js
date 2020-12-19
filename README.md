@@ -1,7 +1,7 @@
 ﻿
 <!--#echo json="package.json" key="name" underline="=" -->
-pdffiller-cli-pmb
-=================
+fillin-pdf-form-cli-pmb
+=======================
 <!--/#echo -->
 
 <!--#echo json="package.json" key="description" -->
@@ -19,11 +19,11 @@ When I switched from dummies to a real world PDF form, `pdftk` failed with
 Usage
 -----
 
-### pdffiller-cli-pmb empty.pdf
+### `fillin-pdf-form-cli-pmb empty.pdf`
 
 Scan `empty.pdf` for form fields and print them as a JSON object.
 
-### pdffiller-cli-pmb empty.pdf values.ceson
+### `fillin-pdf-form-cli-pmb empty.pdf values.ceson`
 
 Read form data from `values.ceson` (you may also use JSON or YAML files)
 and fill the form from `empty.pdf` with those values.
